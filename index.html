@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Taskmaster Pro</title>
   </head>
@@ -40,23 +44,31 @@
       <main class="col-12 col-lg-9 d-flex flex-column">
         <div class="m-5 row justify-content-around">
           <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <h4 class="card-header bg-dark text-light">To Do</h4>
-            <ul id="list-toDo" class="list-group"></ul>
+            <div class="card">
+              <h4 class="card-header bg-dark text-light">To Do</h4>
+              <ul id="list-toDo" class="list-group"></ul>
+            </div>
           </div>
           <!-- in progress start -->
           <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <h4 class="card-header bg-dark text-light">In Progress</h4>
-            <ul id="list-inProgress" class="list-group"></ul>
+            <div class="card">
+              <h4 class="card-header bg-dark text-light">In Progress</h4>
+              <ul id="list-inProgress" class="list-group"></ul>
+            </div>
           </div>
           <!-- In review start -->
           <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <h4 class="card-header bg-dark text-light">In Review</h4>
-            <ul id="list-inReview" class="list-group"></ul>
+            <div class="card">
+              <h4 class="card-header bg-dark text-light">In Review</h4>
+              <ul id="list-inReview" class="list-group"></ul>
+            </div>
           </div>
           <!-- done start -->
           <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <h4 class="card-header bg-dark text-light">Done</h4>
-            <ul id="list-done" class="list-group"></ul>
+            <div class="card">
+              <h4 class="card-header bg-dark text-light">Done</h4>
+              <ul id="list-done" class="list-group"></ul>
+            </div>
           </div>
         </div>
         <div id="trash" class="mt-auto">
@@ -126,6 +138,8 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./assets/js/script.js"></script>
